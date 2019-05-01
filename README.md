@@ -91,7 +91,6 @@ our application:
 ● # Create app directory
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
-●
 ```
 
 # Step 2: Create NodeJS app
@@ -102,9 +101,6 @@ WORKDIR /usr/src/app
 RUN npm install
 ● Bundle app source to the working directory.
 ● COPY. /usr/src/app
-```
-```
-●
 ```
 
 # Step 2: Create NodeJS app
@@ -155,7 +151,7 @@ Your image will now be listed by Docker.
 
 # Step 2: Building your image
 
-Run => “docker images” to check for your list of built
+Run => "docker images" to check for your list of built
 images.
 
 
@@ -191,4 +187,4 @@ Chata! We are good to go.
 
 
 # Thanks
-
+# Oluwafikayo Ajayi
